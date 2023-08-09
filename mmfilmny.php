@@ -196,7 +196,7 @@ Join the MovieMonthly community today and never miss out on the latest and great
             echo "Kolla film nr:" . $slumpat_nummer;
         }
         ?>
-    </h3p>
+    </h3>
 
 </div>
 

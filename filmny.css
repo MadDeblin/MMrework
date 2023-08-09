@@ -21,6 +21,13 @@ form {
   align-items: flex-start;
 }
 
+.Slump {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centrerar texten till mitten */
+
+}
+
 #comments {
   width: 100%;
   display: flex;
@@ -303,9 +310,3 @@ footer p {
   }
 }
 
-.Slump {
-  display: flex;
-  flex-direction: column;
-  align-items: center; /* Centrerar texten till mitten */
-
-}
