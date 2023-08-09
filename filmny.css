@@ -302,3 +302,10 @@ footer p {
     margin-bottom: 20px;
   }
 }
+
+.Slump {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centrerar texten till mitten */
+
+}

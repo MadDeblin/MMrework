@@ -179,13 +179,13 @@ Join the MovieMonthly community today and never miss out on the latest and great
     <input type="submit" value="Submit">
   </form>
 </div>
-<div>
-<h1>Har du svårt att välja ett nummer?</h1>
-    <p>Tryck på knappen så slumpas ett nummer mellan 1 och 5.</p>
+<div class="Slump">
+<h3>Har du svårt att välja ett nummer?</h3>
+    <h3>Tryck på knappen så slumpas ett nummer mellan 1 och 5.</h3>
     <form method="POST">
-        <input type="submit" name="slumpa" value="Slumpa nummer">
+        <input type="submit" name="slumpa" value="Slumpa film">
     </form>
-    <p>
+    <h3>
         <?php
         if (isset($_POST['slumpa'])) {
             // Inkluderar funktionen för slumpat nummer mellan 1 och 5
@@ -196,7 +196,7 @@ Join the MovieMonthly community today and never miss out on the latest and great
             echo "Kolla film nr:" . $slumpat_nummer;
         }
         ?>
-    </p>
+    </h3p>
 
 </div>
 
