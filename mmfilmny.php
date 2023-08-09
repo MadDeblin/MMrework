@@ -179,8 +179,28 @@ Join the MovieMonthly community today and never miss out on the latest and great
     <input type="submit" value="Submit">
   </form>
 </div>
+<div>
+<h1>Har du svårt att välja ett nummer?</h1>
+    <p>Tryck på knappen så slumpas ett nummer mellan 1 och 5.</p>
+    <form method="POST">
+        <input type="submit" name="slumpa" value="Slumpa nummer">
+    </form>
+    <p>
+        <?php
+        if (isset($_POST['slumpa'])) {
+            // Inkluderar funktionen för slumpat nummer mellan 1 och 5
+            include 'slump.php';
 
-</body>
+            // Anropar funktionen för att generera ett slumpmässigt nummer
+            $slumpat_nummer = rand(1, 5);
+            echo "Kolla film nr:" . $slumpat_nummer;
+        }
+        ?>
+    </p>
+
+</div>
+
+
 </html>
                 
             
