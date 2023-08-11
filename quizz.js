@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function() {
             question: "The head of what kind of animal is beheaded in an infamous scene from The Godfather?",
             options: ["A dog", "A sheep", "A horse", "A donkey"],
             correctAnswer: "A horse"
-        }
+        },
         {
             question: "When was Avatar 1 released?",
             options: ["2013", "2008", "2009", "2011"],
