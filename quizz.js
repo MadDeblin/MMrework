@@ -21,6 +21,11 @@ document.addEventListener("DOMContentLoaded", function() {
             options: ["A dog", "A sheep", "A horse", "A donkey"],
             correctAnswer: "A horse"
         }
+        {
+            question: "When was Avatar 1 released?",
+            options: ["2013", "2008", "2009", "2011"],
+            correctAnswer: "2009"
+        }
         
     ];
 
