@@ -230,7 +230,7 @@ Join the MovieMonthly community today and never miss out on the latest and great
     </h3>
 </div>
 
-
+<br>
 <!-- Quizz funktionen -->
 <div class="Quizz" id="Quizz">
     
