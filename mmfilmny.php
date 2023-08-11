@@ -225,9 +225,16 @@ Join the MovieMonthly community today and never miss out on the latest and great
         }
         ?>
     </h3>
-
 </div>
 
+<!-- Footer -->
+  <footer class="container-fluid">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <p>&copy; 2023 MovieMonthly. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
 
 </html>
                 
