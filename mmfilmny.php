@@ -227,6 +227,31 @@ Join the MovieMonthly community today and never miss out on the latest and great
     </h3>
 </div>
 
+
+<!-- Quizz funktionen -->
+<div class="Quizz">
+    
+    < <h3>Movie Quizz</h3>
+    
+    <button id="startButton">Start Quizz</button>
+    
+    <div id="questionContainer" style="display: none;">
+        <h3 id="questionText"></h3>
+        <div id="options"></div>
+        <button id="submitAnswerButton">Submit Answer</button>
+    </div>
+    
+    <div id="resultContainer" style="display: none;">
+        <h3>Quiz Results</h3>
+        <p id="score"></p>
+    </div>
+
+    <script src="quizz.js"></script>
+
+</div>
+
+
+
 <!-- Footer -->
   <footer class="container-fluid">
     <div class="row">
