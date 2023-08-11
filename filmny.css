@@ -67,6 +67,67 @@ form button[type="submit"] {
   cursor: pointer;
 }
 
+/* Css för quizz funktionen */
+button {
+  background-color: #0e632e; 
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#questionContainer {
+  background-color: #212529; 
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+#questionText {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+#resultContainer {
+  background-color: #212529;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+}
+
+#questionText {
+  font-size: 18px;
+  color: #ccc;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  color: #ccc;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.radio {
+  color:#ccc
+}
+
+#score {
+  font-size: 18px;
+  color: #ccc;
+  font-weight: bold;
+}
+/*Css för quizz slut*/
+
 
 .comment {
   margin-bottom: 15px;
